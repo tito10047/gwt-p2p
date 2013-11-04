@@ -6,6 +6,8 @@
   <entry-point class='com.mostka.p2p.client.Gwt_p2p'/>
 
   <source path='client'/>
-  <source path='shared'/>
+  <source path='core'/>
+  <source path='event'/>
+  <source path='js'/>
 
 </module>
