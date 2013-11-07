@@ -321,7 +321,7 @@ public class Demo1 {
 			this.onSendChannelStateChange();
 		}
 		private void onSendChannelStateChange(){
-			RTCDataChannelState readyState = receiveChannel.getReadyState();
+			RTCDataChannelState readyState = sendChannel.getReadyState();
 			Gwt_p2p.log("Send channel state is: "+readyState.toString());
 			if (readyState == RTCDataChannelState.open){
 				dataChannelSend.setEnabled(true);
